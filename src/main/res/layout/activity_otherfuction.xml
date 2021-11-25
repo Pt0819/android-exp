@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="进制转换"
+        android:textSize="35dp"
+        android:gravity="center"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/binarySystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二进制:"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/edBinarySystem"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/octalSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="八进制:"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/edOctalSystem"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/decimalSystem"
+            android:text="十进制:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/edDecimalSystem"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"/>
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/hexSystem"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="十六进制"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/edHexSystem"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:inputType="number"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/convert"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进制转换"/>
+
+        <Button
+            android:id="@+id/clear1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除"/>
+
+        <Button
+            android:id="@+id/jisuanqi"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计算器"/>
+
+        <Button
+            android:id="@+id/danwei"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单位"/>
+
+
+    </TableRow>
+
+</LinearLayout>
